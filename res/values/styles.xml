@@ -17,5 +17,6 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <color name="Gray">#DDDDDD</color>
+    <color name="BorderColor">#000000</color>
 
 </resources>

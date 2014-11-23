@@ -120,8 +120,9 @@ int bool abc_config_actionMenuItemAllCaps 0x7f060005
 int bool abc_config_allowActionMenuItemTextWithIcon 0x7f060004
 int bool abc_config_showMenuShortcutsWhenKeyboardPresent 0x7f060003
 int bool abc_split_action_bar_is_narrow 0x7f060002
+int color BorderColor 0x7f070004
 int color Gray 0x7f070003
-int color abc_search_url_text_holo 0x7f070004
+int color abc_search_url_text_holo 0x7f070005
 int color abc_search_url_text_normal 0x7f070000
 int color abc_search_url_text_pressed 0x7f070002
 int color abc_search_url_text_selected 0x7f070001
@@ -247,11 +248,11 @@ int id action_bar_root 0x7f05001a
 int id action_bar_subtitle 0x7f050023
 int id action_bar_title 0x7f050022
 int id action_context_bar 0x7f05001d
-int id action_example 0x7f050043
+int id action_example 0x7f050044
 int id action_menu_divider 0x7f050016
 int id action_menu_presenter 0x7f050017
 int id action_mode_close_button 0x7f050024
-int id action_settings 0x7f050042
+int id action_settings 0x7f050043
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
@@ -303,6 +304,7 @@ int id split_action_bar 0x7f05001e
 int id submit_area 0x7f05003a
 int id tabMode 0x7f050002
 int id title 0x7f05002c
+int id title_bar 0x7f050042
 int id top_action_bar 0x7f050020
 int id up 0x7f050021
 int id useLogo 0x7f050003
