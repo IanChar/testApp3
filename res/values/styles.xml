@@ -18,5 +18,7 @@
     </style>
     <color name="Gray">#DDDDDD</color>
     <color name="BorderColor">#000000</color>
+    <color name="TitleBarColor">#111111</color>
+    <color name="White">#FFFFFF</color>
 
 </resources>

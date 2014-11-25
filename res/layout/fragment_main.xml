@@ -8,10 +8,6 @@
     android:paddingTop="0dp"
     tools:context="com.example.testapp3.MainActivity$PlaceholderFragment" >
 
-    <TextView
-        android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
     
     <FrameLayout
         android:id="@+id/side_nav"
@@ -27,9 +23,17 @@
         android:id="@+id/title_bar"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:background="@color/Gray"
-        android:border="@color/BorderColor">
+        android:background="@color/TitleBarColor"
+        android:border="@color/BorderColor">   
         
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="25dp"
+            android:text="Shopping App" />
+
     </FrameLayout>
 
 </RelativeLayout>
