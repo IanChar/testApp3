@@ -187,6 +187,69 @@
             android:layout_marginLeft="170dp"
             android:src="@drawable/steak"
             android:layout_marginTop="300dp"/>
+        
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="Apple: $5"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="15dp"/>        
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="110dp"
+            android:text="Bananas: $10" />
+        
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="Pear: $3"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="180dp"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="250dp"
+            android:text="Asparagus: $7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="250dp"
+            android:text="Pepper: $2" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="250dp"
+            android:text="Broccoli: $4" />
+        
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="Chicken: $8"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="0dp"/>        
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="370dp"
+            android:text="Ham: $1" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="370dp"
+            android:text="Steak: $20" />
 
     </FrameLayout>
 
