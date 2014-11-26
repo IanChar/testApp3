@@ -90,44 +90,104 @@
             android:text="Shopping App" />
 
     </FrameLayout>
-    <FrameLayout 
+
+    <FrameLayout
         android:id="@+id/mainScreen"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </FrameLayout>
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title_bar"
+        android:layout_toRightOf="@+id/side_nav" >
 
-    <TextView
-        android:id="@+id/fruitHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title_bar"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="18dp"
-        android:layout_toRightOf="@+id/side_nav"
-        android:text="Fruit"
-        android:textColor="@color/Black"
-        android:textSize="20dp" />
-     <TextView
-        android:id="@+id/vegetablesHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title_bar"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="25dp"
-        android:layout_toRightOf="@+id/side_nav"
-        android:text="Vegetables"
-        android:textColor="@color/Black"
-        android:textSize="20dp" />
-      <TextView
-        android:id="@+id/meatHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title_bar"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="30dp"
-        android:layout_toRightOf="@+id/side_nav"
-        android:text="Meat"
-        android:textColor="@color/Black"
-        android:textSize="20dp" />
+        <TextView
+            android:id="@+id/fruitHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_bar"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/side_nav"
+            android:text="Fruit"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+        
+        
+        <TextView
+            android:id="@+id/meatHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="285dp"
+            android:layout_marginLeft="15dp"
+            android:text="Meat"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/vegetablesHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="15dp"
+            android:text="Vegetables"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/apple"
+            android:layout_marginTop="35dp"/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/banana"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="35dp"/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/pear"
+            android:layout_marginTop="35dp"/>
+        
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/asparagus"
+            android:layout_marginTop="175dp"/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/pepper"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="175dp"/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/broccoli"
+            android:layout_marginTop="175dp"/>
+        
+                
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/friedChicken"
+            android:layout_marginTop="300dp"/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/pork"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="300dp"/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/steak"
+            android:layout_marginTop="300dp"/>
+
+    </FrameLayout>
 
 </RelativeLayout>
