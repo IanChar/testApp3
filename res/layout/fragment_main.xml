@@ -88,6 +88,24 @@
             android:textColor="@color/White"
             android:textSize="25dp"
             android:text="Shopping App" />
+        <TextView
+            android:id="@+id/myCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"
+            android:text="My Cart" />
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:text="Search" />
 
     </FrameLayout>
 

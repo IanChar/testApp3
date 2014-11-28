@@ -21,5 +21,6 @@
     <color name="TitleBarColor">#111111</color>
     <color name="White">#FFFFFF</color>
     <color name="Black">#000000</color>
+    <drawable name="apple">apple.png</drawable>
 
 </resources>
