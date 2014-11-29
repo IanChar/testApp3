@@ -72,6 +72,23 @@
             android:textColor="@color/Black"
             android:textSize="15dp" />
         
+        <TextView
+            android:id="@+id/signOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="375dp"
+            android:text="Sign Out"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/Help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="425dp"
+            android:text="Help"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+        
     </FrameLayout>
     
     <FrameLayout 
